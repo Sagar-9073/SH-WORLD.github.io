@@ -1,0 +1,17 @@
+@media(max-width:480px){
+
+   #navbar{
+      align-items:center;}
+   #navbar .logo{
+      font-size:15px;}
+   #navbar nav a{
+      font-size:10px;
+      padding:2px 6px;}
+   #navbar{
+      align-items:center;}
+   
+   #review_section #review_heading h2{
+      font-size:22px;
+      letter-spacing:0px;}
+
+}
