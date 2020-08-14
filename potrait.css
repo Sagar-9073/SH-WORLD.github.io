@@ -1,7 +1,8 @@
 @media(max-width:480px){
 
    #navbar{
-      align-items:center;}
+      align-items:center;
+      padding:10px 0px;}
    #navbar .logo{
       font-size:15px;}
    #navbar nav a{
