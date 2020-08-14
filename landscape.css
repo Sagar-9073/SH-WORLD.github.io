@@ -1,0 +1,477 @@
+*{margin:0; padding:0; font-family: Poppins;}
+
+/*html{
+  scroll-screen:smooth;}*/
+
+body{
+   position:relative;}
+
+/*---utility property----*/
+.orange_color{
+   color:orange;}
+
+/*------Designing starts here------*/
+
+/*------navbar designing------*/
+#navbar{
+   background:#030469;
+   width:100%;
+   height:3em;
+   box-sizing: border-box;
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+   position:sticky;
+   top:0;
+   left:0;
+   z-index:100;}
+#navbar .logo{
+   color:white;
+   font-family: 'Arimo', sans-serif;}
+#navbar nav{
+   display:flex;
+   list-style:none;}
+#navbar nav a{
+   color:white;
+   text-decoration:none;
+   padding:5px 15px;}
+#navbar nav a:hover{
+   background:#fff;
+   color:#000;
+   border-radius:10px;
+   transition:all 0.5s ease-in-out;}
+/*------header designing starts here------*/
+
+header{
+   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(header_bg.jpg) no-repeat center center/cover;
+   height:300px;
+   width:100%;
+   display:flex;
+   justify-content:space-evenly;
+   align-items:center;}
+   
+/*---section1 of header design---*/
+
+#header_section1{
+   display:flex;
+   flex-direction:column;
+   max-width:40%;}
+#header_section1 h2{
+   color:#fff;
+   font-family: 'Arimo', sans-serif;}
+#header_section1 hr{
+   width:20%;
+   background:#fff;
+   height:2px;
+   border:none;
+   margin:0.3em 0em;}
+#header_section1 h4{
+   text-transform:uppercase;
+   color:#fff;
+   font-family:'Nanum Gothic', sans-serif;
+   line-height:2em;}
+#header_section1 button{
+   background: transparent;
+   color:#fff;
+   padding:5px 15px;
+   border:0.5px solid #fff;
+   width:11em;
+   margin-top:0.7em;}
+#header_section1 button:hover{
+   background:white;
+   color:black;
+   border:none;
+   outline:none;
+   transition:all 1s ease-in-out;}
+   
+/*---section2 of header (form section) Design---*/
+#header_section2{
+   /*border:1px solid red;*/
+   width:50%;
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+   background:white;}
+#header_section2 h2{
+   background:#f0f0f0;
+   color:#D76E65;
+   text-transform:capitalize;
+   display:block;
+   width:100%;
+   text-align:center;}
+#header_section2 form{
+   width:100%;
+   display:flex;
+   flex-direction:column;
+   justify-content: space-between;}
+#header_section2 form #name, #header_section2 form #email,#header_section2 form #password{
+   border:none;
+   margin:5px;
+   outline:none;
+   background: transparent;
+   border-bottom:1px solid black;
+   padding:5px;}
+#header_section2 form input[type="submit"]{
+   background:red;
+   border:none;
+   color:white;
+   padding:5px 0px;}
+#header_section2 form input[type="submit"]:hover{ 
+   background:#c70e00;
+   outline:none;}
+/*section2 of header(form part) ends here*/
+   
+   /*----- Header design ends here-----*/
+  
+/*---'container_1' designing starts here---*/
+#services_section{
+   max-width:100%;
+   display:flex;
+   box-sizing: border-box;
+   flex-direction:column;
+   align-items:center;}
+#services_section h2{
+   font-size:38px;
+   word-spacing:6px;
+   letter-spacing:3px;
+   padding:10px;}
+#services_section hr{
+   width:70%;
+   margin-bottom:15px;
+   background:orange;
+   height:1.5px;
+   border:none;}
+#services_part{
+    background:#f5f5f5;
+   display: flex;
+   flex-wrap:wrap;
+   justify-content:space-evenly;
+   align-items:center;}
+.services{
+   background:#fff;
+   width:200px;
+   height:200px;
+   margin:10px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:space-evenly;}
+/*--- hover effect--*/
+.services:hover{
+   box-shadow:1px 1px 3px #575757;
+   transition:all 0.5s ease-in-out;
+   transform:scale(1.04);}
+.services img{
+  width:50px;}
+.services h3{
+   color:red;}
+.services p{
+   margin:5px 10px;
+   font-size:10px;}
+   
+   /*-----services section design ends here---*/
+   /*----feature part Design starts here---*/
+#features{
+   margin-top:5px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;}
+#features h2{
+   text-transform: uppercase;
+   font-family: raleway;
+   padding:10px 0px;
+   font-size:25px;
+   word-spacing:3px;
+   letter-spacing:2px;
+   max-width:100%;}
+#features hr{
+   width:55%;
+   background:orange;
+   height:1.5px;
+   border:none;}
+#feature_items_container{
+   display:flex;
+   width:100%;
+   align-items:center;
+   justify-content:space-evenly;
+   flex-wrap:wrap;
+   margin-top:15px;
+   background:#f5f5f5;}
+.feature_items{
+   width:200px;
+   height:230px;
+   margin:8px;
+   display:flex;
+   flex-direction:column;
+   justify-content: space-evenly;
+   align-items:center;
+   background:#fff;}  
+.feature_items:hover{
+   box-shadow:1px 2px 3px #E95DA5;
+   transform:scale(1.04);
+   transition:all 0.5s ease-out;}
+.feature_items img{
+   width:40px;}
+.feature_items h3{
+   color: coral;}
+.feature_items p{
+   color:#7d7d7d;
+   font-size:12px;
+   width:80%;}
+/* -- feature section design ends here--*/
+
+/*-- pricing section designing starts here--*/
+
+#pricing{
+   display:flex;
+   flex-direction:column;
+   margin-top:10px;}
+#pricing_heading{
+   display:flex;
+   flex-direction:column;
+   align-items:center;}
+#pricing_heading h2{
+   text-transform: uppercase;
+   font-size:27px;
+   word-spacing:2px;
+   letter-spacing:3px;
+   line-height:50px;}
+#pricing_heading hr{
+  width:60%;
+  background:orange;
+  height:1.5px;
+  border:none;}
+#prices{
+   display:flex;
+   justify-content:space-evenly;
+   align-items:center;
+   flex-wrap:wrap;
+   background:#f5f5f5;
+   margin-top:10px;}
+.price{
+   background:#fff;
+   width:200px;
+   height:auto;
+   margin:15px 0px;}
+/*--- hover effects on price boxes---*/
+.price:hover{
+   box-shadow:1px 1px 3px #6b6b6b;
+   transition: all 0.3s ease-in-out;
+   transform:scale(1.05);}
+
+ /*--***upper section of price designing starts here--***/
+.price .price_upper{
+   background:#333333;
+   padding:5px 0px;
+   display:flex;
+   flex-direction:column;
+   align-items: center;}
+.price .price_upper p{
+   color:#fff;
+   padding:8px 0px;
+   font-size:22px;
+   font-family:raleway;}
+.price .price_upper hr{
+   width:100%;
+   background:#fff;
+   border:none;
+   height:1px;}
+.price .price_upper h2{
+   color:#fff;
+   font-size:40px;}
+.price .price_upper .upper_p{
+   color:grey;
+   font-style:italic;
+   font-size:16px;}
+.price .price_upper .buy_now_btn{
+   border:none;
+   background:orange;
+   color:white;
+   width:100%;
+   padding:10px 0px;
+   margin-bottom:-5px;}
+/*---button hover --*/
+.price .price_upper .buy_now_btn:hover{
+   background:#ff7f00;
+   text-decoration:underline;}
+   
+   /*__---- ***upper part of price div designing ends here****---*/
+ 
+ /*__---- ***lower part of price div designing starts here****---*/
+ 
+.price .price_lower{
+   padding:5px 10px;}
+.price .price_lower p{
+   font-size:10px;
+   text-align:center;
+   padding:3px 0px;}
+
+.price .price_lower p:hover{
+   background:#f2f2f2;}
+
+.price .price_lower hr{
+   color:grey;
+   opacity:0.3;}
+ 
+/*---- pricing section Design ends here---*/
+
+/*---review section design starts here--*/
+
+#review_section{
+   height:auto;
+   width:100%;
+   display:flex;
+   flex-direction:column;
+   flex-wrap:wrap;
+   align-items:center;
+   justify-content:space-evenly;}
+#review_section #review_heading{
+   margin:20px 0px;}
+#review_section #review_heading h2{
+   font-family:raleway;
+   letter-spacing:3px;
+   font-size:34px;
+   text-transform:capitalize;}
+#review_section #review_heading hr{
+   width:60%;
+   background:orange;
+   height:1.5px;
+   border:none;}
+#review_section #client_reviews{
+   display:flex;
+   flex-wrap:wrap;
+   width:100%;
+   align-items:center;
+   justify-content:space-around;} /*--- container div of every client div--*/
+#review_section #client_reviews .client{
+   background:#fff;
+   border:0.3px solid grey;
+   height:auto;
+   width:200px;
+   margin-top:10px;}
+
+#review_section #client_reviews .client{
+   display:flex;
+   flex-direction:column;
+   align-items: center;}
+/*----hover effect on client divs----_*/
+#review_section #client_reviews .client:hover{
+   transition:all 0.3s ease-in-out;
+   box-shadow:1px 1px 3px #6b6b6b;
+   transform:scale(1.02);}
+   
+/*--- designing elements of client div---*/
+
+#review_section #client_reviews .client img{
+   display:block;
+   width:60px;
+   margin:10px auto;
+   border-radius:50%;}
+#review_section #client_reviews .client h3{
+   color:red;}
+#review_section #client_reviews .client p{
+   color:grey;
+   font-size:10px;
+   margin-bottom:10px;}
+#review_section #client_reviews .client q{
+   padding:15px 10px;
+   display:block;
+   background:#f7f7f7;}
+/*---review section ends here--*/
+
+#background_img{
+   background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg_2nd.jpg) no-repeat center center/cover;
+   height:100px;
+   margin-top:20px;
+   width:100%;
+   display:flex;
+   flex-direction:column;
+   justify-content: space-between;
+   align-items:center;
+   padding:10px 0px;}
+#background_img h2{
+   color:#fff;
+   font-size:17px;
+   font-family:'Nanum Gothic', sans-serif;}
+#background_img hr{
+   width:40%;
+   background:#fff;
+   height:1.5px;
+   border:none;}
+#background_img p{
+   color:#fff;
+   font-size:10px;}
+#background_img button{
+   border:1px solid #fff;
+   color:#fff;
+   padding:5px 15px;
+   background: transparent;}
+   
+#background_img button:hover{
+ background:white;
+ color:black;
+ border:none;
+ outline:none;
+ transition:all 0.6s ease-in-out;}
+ 
+ /*--- background img section designing ends here--*/
+ 
+ #contact_us_section{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    height:auto;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:30px;}
+#contact_us_section h2{
+   text-transform: uppercase;}
+#contact_us_section hr{
+   width:50%;
+   background:orange;
+   height:1.5px;
+   border:none;}
+#contact_us_section p{
+   font-size:10px;
+   margin:15px 0px;
+   text-transform:capitalize;}
+#contact_us_section form{
+   display:flex;
+   flex-direction:column;
+   width:80%;}
+#contact_us_section form input{
+   margin:10px 0px;
+   border:none;
+   outline:none;
+   border-bottom:0.5px solid black;}
+#contact_us_section form input[type="submit"]{
+   background:orange;
+   padding:8px 0px;
+   border:none;
+   color:#fff;
+   letter-spacing:2px;
+   word-spacing:3px;}
+   
+#contact_us_section form input[type="submit"]:hover{
+   text-decoration:underline;
+   background:#F09B00;}
+
+/*--- Contact us section designing ends here__---*/
+
+/*--footer Design starts here--*/
+footer{
+   background:#0E0F2F;
+   padding:15px 0px;
+   width:100%;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:space-evenly;
+   color:#f0f0f0;}
+footer #copyright p{
+   opacity:0.4;}
+footer #my_credit p{
+   opacity:0.4;
+   font-size:15px;}
+/*--- All desgins are end---*/
