@@ -1,7 +1,7 @@
 *{margin:0; padding:0; font-family: Poppins;}
 
-/*html{
-  scroll-screen:smooth;}*/
+html{
+  scroll-behavior:smooth;}
 
 body{
    position:relative;}
@@ -326,7 +326,10 @@ header{
    align-items:center;
    justify-content:space-evenly;}
 #review_section #review_heading{
-   margin:20px 0px;}
+   margin:20px 0px;
+   display:flex;
+   flex-direction:column;
+   align-items:center;}
 #review_section #review_heading h2{
    font-family:raleway;
    letter-spacing:3px;
