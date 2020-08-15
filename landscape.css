@@ -130,10 +130,11 @@ header{
    flex-direction:column;
    align-items:center;}
 #services_section h2{
-   font-size:38px;
+   font-size:34px;
    word-spacing:6px;
    letter-spacing:3px;
-   padding:10px;}
+   padding:10px;
+   text-align:center;}
 #services_section hr{
    width:70%;
    margin-bottom:15px;
@@ -183,7 +184,8 @@ header{
    font-size:25px;
    word-spacing:3px;
    letter-spacing:2px;
-   max-width:100%;}
+   max-width:100%;
+   text-align:center;}
 #features hr{
    width:55%;
    background:orange;
@@ -213,11 +215,13 @@ header{
 .feature_items img{
    width:40px;}
 .feature_items h3{
-   color: coral;}
+   color: coral;
+   text-align:center;}
 .feature_items p{
    color:#7d7d7d;
    font-size:12px;
-   width:80%;}
+   width:80%;
+   text-align:center;}
 /* -- feature section design ends here--*/
 
 /*-- pricing section designing starts here--*/
@@ -235,7 +239,8 @@ header{
    font-size:27px;
    word-spacing:2px;
    letter-spacing:3px;
-   line-height:50px;}
+   line-height:50px;
+   text-align:center;}
 #pricing_heading hr{
   width:60%;
   background:orange;
@@ -334,7 +339,8 @@ header{
    font-family:raleway;
    letter-spacing:3px;
    font-size:34px;
-   text-transform:capitalize;}
+   text-transform:capitalize;
+   text-align:center;}
 #review_section #review_heading hr{
    width:60%;
    background:orange;
@@ -384,18 +390,18 @@ header{
 
 #background_img{
    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg_2nd.jpg) no-repeat center center/cover;
-   height:100px;
    margin-top:20px;
    width:100%;
    display:flex;
    flex-direction:column;
-   justify-content: space-between;
    align-items:center;
-   padding:10px 0px;}
+   padding:15px 0px;}
 #background_img h2{
    color:#fff;
    font-size:17px;
-   font-family:'Nanum Gothic', sans-serif;}
+   font-family:'Nanum Gothic', sans-serif;
+   text-align:center;
+   margin-bottom:4px;}
 #background_img hr{
    width:40%;
    background:#fff;
@@ -403,12 +409,14 @@ header{
    border:none;}
 #background_img p{
    color:#fff;
-   font-size:10px;}
+   font-size:10px;
+   text-align:center;
+   margin:5px 0px;}
 #background_img button{
    border:1px solid #fff;
    color:#fff;
    padding:5px 15px;
-   background: transparent;}
+   background:transparent;}
    
 #background_img button:hover{
  background:white;
@@ -437,7 +445,8 @@ header{
 #contact_us_section p{
    font-size:10px;
    margin:15px 0px;
-   text-transform:capitalize;}
+   text-transform:capitalize;
+   text-align:center;}
 #contact_us_section form{
    display:flex;
    flex-direction:column;
@@ -472,8 +481,10 @@ footer{
    justify-content:space-evenly;
    color:#f0f0f0;}
 footer #copyright p{
-   opacity:0.4;}
+   opacity:0.4;
+   text-align:center;}
 footer #my_credit p{
    opacity:0.4;
-   font-size:15px;}
+   font-size:15px;
+   text-align:center;}
 /*--- All desgins are end---*/
